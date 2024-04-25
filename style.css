@@ -1,0 +1,130 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+@font-face {
+font-family: vattenyRose;
+src: url(Vatteny\ Rose.otf);
+}
+
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: #c3b2ac;
+  color: #4c4343;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+}
+
+h2{
+  font-family: 'Quicksand' sans-serif;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+
+
+#hero-section {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.7)), 
+              no-repeat top/cover url(img/aspen.jpg);
+  width: 100%;
+  height: 75vh;
+  color: #dcd0c0;
+  padding-top: 75px;
+  margin-top: 15px;
+}
+
+.rounded-circle {
+  border: 30px solid;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.name {
+  padding-top: 10px;
+  font-family: 'vattenyRose', cursive;
+  font-size: 50px;
+}
+
+.nav-link:hover{
+  color: floralwhite;
+}
+
+#footer-section {
+  background-color: #c3b2ac;
+  color:#f3f3f4;
+}
+
+.img-mission {
+  max-height: 50vh;
+  max-width: 100vw;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+
+h2 {
+  padding-top: 20px;
+}
+
+.mission-header,
+.skills-header,
+.photos-header{
+  color: #546c74;
+}
+
+.i-skills {
+  font-size: 75px;
+  color: floralwhite;
+}
+
+#contact-section{
+  background-color: #f1e3e4;  
+}
+
+.contact-header {
+  color: #546c74;
+  font-size: 25px;
+}
+
+.i-contact {
+  font-size: 25px;
+  color: #c3b2ac;
+}
+
+.i-contact:hover{
+  color: #546c74;
+}
+
+#mission-target,
+#skills-target,
+#photos-target {
+  padding: 50px;
+}
+
+#home {
+  margin: -20px;
+}
